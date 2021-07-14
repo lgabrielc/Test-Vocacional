@@ -1,0 +1,16 @@
+.contaddcliente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 238, 238);
+}
+.form-control {
+    padding: inherit !important;
+}
+.cajita{
+    margin: 1rem;
+    padding: 2rem;
+    border:1px;
+    border-color: chartreuse;
+    background-color: white;
+}

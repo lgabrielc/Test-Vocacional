@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+}
+body {
+  font-family: 'Arial';
+  font-weight: 100;
+  display: flex;
+  overflow: hidden;
+  background: url('../imagenes/get.jpg');
+  background-size: cover;
+}
+.cont1{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.cont2{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titu{
+	flex-wrap: initial;
+	text-align: center;
+	color: #66FCF1;
+	font-weight: bold;
+	margin-top: 40px;
+	font-size: 45px;
+}
+.btn{
+	font-size: 1.1em;
+	padding: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.formu{
+	padding: .5em;
+	margin: .5em;
+	align-content: flex-end;
+}
+.contFormu{
+	background-color: burlywood;
+}
